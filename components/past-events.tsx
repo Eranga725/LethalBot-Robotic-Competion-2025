@@ -23,7 +23,7 @@ export default function PastEvents() {
   const memories: EventMemory[] = [
     {
       id: 1,
-      image: "/placeholder.svg?height=600&width=800",
+      image: "/ga5.jpg",
       title: "2023 Grand Finals",
       description: "The exciting conclusion of last year's competition with Team RoboMasters taking the trophy.",
       date: "June 12, 2023",
@@ -33,7 +33,7 @@ export default function PastEvents() {
     },
     {
       id: 2,
-      image: "/placeholder.svg?height=600&width=800",
+      image: "/ga5.jpg",
       title: "Robot Showcase Exhibition",
       description: "Innovative designs from previous competitions that pushed the boundaries of robotics.",
       date: "June 10, 2023",
@@ -101,7 +101,7 @@ export default function PastEvents() {
           ))}
         </div>
 
-        {/* Memory Detail Modal */}
+        {/* Memory Detail Modal 
         <Dialog open={!!selectedMemory} onOpenChange={(open) => !open && closeMemoryDetails()}>
           <DialogContent className="bg-gray-900 border-blue-900 text-white max-w-4xl">
             <DialogHeader>
@@ -116,7 +116,7 @@ export default function PastEvents() {
                   <span>{selectedMemory?.location}</span>
                 </div>
               </DialogDescription>
-            </DialogHeader>
+            </DialogHeader>*
 
             <div className="relative aspect-video overflow-hidden rounded-md mb-4">
               {selectedMemory && (
@@ -133,6 +133,7 @@ export default function PastEvents() {
             <p className="text-gray-300 leading-relaxed">{selectedMemory?.fullDescription}</p>
           </DialogContent>
         </Dialog>
+        */}
 
         {/* View All Gallery Link */}
         <div className="mt-16 text-center">

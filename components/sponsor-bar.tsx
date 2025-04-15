@@ -14,25 +14,25 @@ export default function SponsorBar() {
     {
       id: 1,
       name: "TechCorp Industries",
-      logo: "/placeholder.svg?height=200&width=200",
+      logo: "/transparentcolor-Copy.png", 
       tier: "Platinum",
     },
     {
       id: 2,
       name: "Quantum Robotics",
-      logo: "/placeholder.svg?height=200&width=200",
+      logo: "/transparentcolor-Copy.png", 
       tier: "Platinum",
     },
     {
       id: 3,
       name: "FutureTech Solutions",
-      logo: "/placeholder.svg?height=200&width=200",
+      logo: "/transparentcolor-Copy.png", 
       tier: "Gold",
     },
     {
       id: 4,
       name: "RoboInnovate Labs",
-      logo: "/placeholder.svg?height=200&width=200",
+      logo: "/transparentcolor-Copy.png", 
       tier: "Gold",
     },
   ]

@@ -84,15 +84,11 @@ export default function Navbar() {
     >
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <Link href="#hero" className="flex items-center space-x-2">
-            <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            fill="currentColor"
-            className="h-6 w-6 text-blue-400"
-            >
-            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z" />
-            </svg>
-
+          <img
+            src="/transparentcolor-Copy.png"
+            alt="Logo"
+            className="h-auto w-auto max-h-6"
+          />
         </Link>
 
         {/* Desktop Navigation */}

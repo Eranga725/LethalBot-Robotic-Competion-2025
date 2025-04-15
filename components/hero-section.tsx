@@ -52,7 +52,7 @@ export default function HeroSection() {
     <section id="hero" ref={heroRef} className="relative h-screen w-full overflow-hidden">
       <div className="absolute inset-0 z-0">
         <Image
-          src="/public/transparent color - Copy.png"
+          src="robot.jpg"
           alt="Robotic Battle Background"
           fill
           priority
@@ -70,8 +70,35 @@ export default function HeroSection() {
           className={`transition-all duration-1000 transform ${isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"}`}
         >
           <h1 className="mb-4 text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
-            <span className="block text-white">ROBOTIC BATTLE</span>
-            <span className="mt-2 block text-blue-400">COMPETITION</span>
+            <span className="block text-white">LETHALBOT ROBOT BATTLE</span>
+            <span
+              className={`mt-2 block transition-colors duration-[500ms] delay-[200ms] ${
+              isVisible
+                ? "text-blue-600 animate-color-change"
+                : "text-blue-400"
+              }`}
+            >
+              COMPETITION
+            </span>
+            <style jsx>{`
+              @keyframes color-change {
+              0% {
+                color: #60a5fa; /* blue-400 */
+              }
+              33% {
+                color: #3b82f6; /* blue-500 */
+              }
+              66% {
+                color: #2563eb; /* blue-600 */
+              }
+              100% {
+                color: #60a5fa; /* blue-400 */
+              }
+              }
+              .animate-color-change {
+              animation: color-change 3s infinite;
+              }
+            `}</style>
           </h1>
         </div>
 
@@ -92,7 +119,8 @@ export default function HeroSection() {
         <div
           className={`mb-10 w-full max-w-2xl transition-all duration-1000 delay-700 transform ${isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"}`}
         >
-          <h2 className="mb-4 text-xl font-semibold">Time Remaining:</h2>
+          {/*
+          <h2 className="mb-4 text-xl font-semibold">Time Remaining:</h2>*/}
           <CountdownTimer targetDate={targetDate} />
         </div>
 
