@@ -87,7 +87,7 @@ export default function Navbar() {
           <img
             src="/transparentcolor-Copy.png"
             alt="Logo"
-            className="h-auto w-auto max-h-6"
+            className="h-auto w-auto max-h-20"
           />
         </Link>
 
