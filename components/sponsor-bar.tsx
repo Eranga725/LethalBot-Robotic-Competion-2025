@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button"
 import { ChevronRight } from "lucide-react"
 
 interface Sponsor {
-  id: number
+  id: numbe
   name: string
   logo: string
   tier: "Platinum" | "Gold"
