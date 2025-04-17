@@ -72,13 +72,13 @@ export default function HeroSection() {
           <h1 className="mb-4 text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
             <span className="block text-white">LETHALBOT ROBOT BATTLE</span>
             <span
-              className={`mt-2 block transition-colors duration-[500ms] delay-[200ms] ${
-              isVisible
-                ? "text-blue-600 animate-color-change"
-                : "text-blue-400"
-              }`}
+            className={`mt-2 block transition-colors delay-200 duration-500 ${
+            isVisible
+            ? "text-blue-600 animate-color-change"
+            : "text-blue-400"
+            }`}
             >
-              COMPETITION
+             COMPETITION
             </span>
             <style jsx>{`
               @keyframes color-change {
