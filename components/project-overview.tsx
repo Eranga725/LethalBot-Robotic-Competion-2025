@@ -8,8 +8,10 @@ export default function ProjectOverview() {
         <div className="mb-16 text-center">
           <h2 className="mb-4 text-3xl font-bold tracking-tight sm:text-4xl text-blue-400">Project Overview</h2>
           <p className="mx-auto max-w-3xl text-gray-400">
-            The Robotic Battle Competition is a premier event that brings together the brightest minds in robotics to
-            compete, learn, and innovate.
+          SLTC LETHALBOTS 2025 is a dynamic robot battle competition organized by the undergraduates of Sri Lanka Technological
+Campus (SLTC). Students from all universities across the nation participate in this event which emerged from the shared
+enthusiasm for innovation and technology with the goal of motivating engineering and robotics interests.
+
           </p>
         </div>
 
