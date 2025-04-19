@@ -108,9 +108,10 @@ export default function Navbar() {
           <Link href="#memories" className={navLinkClass("memories")}>
             Past Events
           </Link>
+          {/*}
           <Link href="#sponsors" className={navLinkClass("sponsors")}>
             Sponsors
-          </Link>
+          </Link>*/}
           <Link href="#contact" className={navLinkClass("contact")}>
             Contact
           </Link>

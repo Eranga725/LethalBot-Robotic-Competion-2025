@@ -16,7 +16,7 @@ export default function HeroSection() {
     setIsMounted(true)
 
     // Set the specific target date: November 4th, 2025 at 7:28 PM
-    const date = new Date('2025-04-18T19:28:00')
+    const date = new Date('2025-05-18T19:28:00')
     setTargetDate(date)
 
     // Trigger animations after a short delay

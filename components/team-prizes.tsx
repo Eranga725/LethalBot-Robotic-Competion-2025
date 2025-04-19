@@ -18,9 +18,9 @@ export default function TeamPrizes() {
               <Trophy className="h-16 w-16 text-yellow-400" />
             </div>
             <h3 className="mb-2 text-2xl font-bold text-white">Winner</h3>
-            <p className="mb-4 text-3xl font-semibold text-yellow-300">$10,000</p>
+            <p className="mb-4 text-3xl font-semibold text-yellow-300"> Rs. 100,000</p>
             <p className="text-sm text-gray-300">
-              Awarded to the team with the highest overall performance across all competition categories.
+            Awarded for unmatched design, performance, and dominance in the arena.
             </p>
             </div>
 
@@ -30,9 +30,9 @@ export default function TeamPrizes() {
               <Medal className="h-16 w-16 text-gray-300" />
             </div>
             <h3 className="mb-2 text-2xl font-bold text-white">1st Runner Up</h3>
-            <p className="mb-4 text-3xl font-semibold text-gray-300">$5,000</p>
+            <p className="mb-4 text-3xl font-semibold text-gray-300">Rs. 75,000</p>
             <p className="text-sm text-gray-300">
-              Awarded to the team that places second in the overall competition rankings.
+            Recognized for exceptional skills, innovation, and competitive spirit.
             </p>
             </div>
 
@@ -42,9 +42,9 @@ export default function TeamPrizes() {
               <Award className="h-16 w-16 text-orange-400" />
             </div>
             <h3 className="mb-2 text-2xl font-bold text-white">2nd Runner Up</h3>
-            <p className="mb-4 text-3xl font-semibold text-orange-300">$2,500</p>
+            <p className="mb-4 text-3xl font-semibold text-orange-300">Rs. 50,000</p>
             <p className="text-sm text-gray-300">
-              Awarded to the team that places third in the overall competition rankings.
+            Honored for outstanding effort, strategy, and technical execution.
             </p>
             </div>
         </div>

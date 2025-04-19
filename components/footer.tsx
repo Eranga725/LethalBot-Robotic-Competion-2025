@@ -92,7 +92,9 @@ export default function Footer() {
                   Event Timeline
                 </Link>
               </li>
+              {/*
               <li>
+                
                 <Link
                   href="#sponsors"
                   className="text-gray-400 hover:text-blue-400 hover:underline transition-colors flex items-center"
@@ -101,6 +103,7 @@ export default function Footer() {
                   Sponsors
                 </Link>
               </li>
+              */}
               <li>
                 <Link
                   href="#contact"
