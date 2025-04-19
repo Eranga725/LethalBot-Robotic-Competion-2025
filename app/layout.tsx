@@ -2,7 +2,7 @@ import { Metadata } from "next"
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Robotic Battle Website',
+  title: 'LETHALBOTS 2025',
   description: 'A website for robotic battle events',
   icons: {
     icon: [
