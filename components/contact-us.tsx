@@ -15,7 +15,7 @@ export default function ContactUs() {
       id: 2,
       name: "Duhun Perera",
       role: "Secretary",
-      image: "/IMG_7672.jpg",
+      image: "/IMG_7672.JPG",
       email: "lethalbots@sltc.ac.lk",
       phone: "+94 (77) 917 5642",
     },
