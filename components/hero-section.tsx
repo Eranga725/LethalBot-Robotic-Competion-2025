@@ -59,7 +59,7 @@ export default function HeroSection() {
       playsInline
       className="absolute inset-0 h-full w-full object-cover"
       />
-      <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/70 to-black/80">
+      <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/60">
       <div className="absolute inset-0 bg-blue-900/5"></div>
       </div>
       </div>

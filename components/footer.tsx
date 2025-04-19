@@ -1,7 +1,8 @@
 "use client"
 
 import Link from "next/link"
-import { Facebook, Twitter, Instagram, Youtube, ArrowUp } from "lucide-react"
+import { Facebook, Linkedin, Youtube, ArrowUp } from "lucide-react"
+import { TikTokIcon } from "./tiktok-icon"
 
 export default function Footer() {
   const scrollToTop = () => {
@@ -10,38 +11,39 @@ export default function Footer() {
       behavior: "smooth",
     })
   }
-
+2025
   return (
     <footer className="bg-gray-950 py-12 border-t border-blue-900/30">
       <div className="container mx-auto px-4">
         <div className="grid gap-8 md:grid-cols-3">
           <div>
-            <h3 className="mb-4 text-lg font-bold text-white">Robotic Battle</h3>
+            <h3 className="mb-4 text-lg font-bold text-white">LETHAL BOT</h3>
             <p className="mb-4 text-sm text-gray-400">
               The premier robotics competition for students and enthusiasts. Showcasing innovation, technical
               excellence, and the future of robotics.
             </p>
             <div className="flex space-x-4">
-              <Link
-                href="#"
+                <Link
+                href="https://www.facebook.com/share/18d5VW9vrA/?mibextid=wwXIfr"
                 className="text-gray-400 hover:text-blue-400 transition-colors rounded-full bg-gray-900 p-2 hover:bg-gray-800"
                 aria-label="Facebook"
-              >
+                >
                 <Facebook className="h-5 w-5" />
-              </Link>
+                </Link>
+                <Link
+                href="https://www.tiktok.com/@lethalbots_sltc?_t=ZS-8vfQ8EeOT2Y&_r=1"
+                className="text-gray-400 hover:text-blue-400 transition-colors rounded-full bg-gray-900 p-2 hover:bg-gray-800"
+                aria-label="TikTok"
+                >
+                <TikTokIcon className="h-5 w-5" />
+                </Link>
+                {/*}
               <Link
                 href="#"
                 className="text-gray-400 hover:text-blue-400 transition-colors rounded-full bg-gray-900 p-2 hover:bg-gray-800"
-                aria-label="Twitter"
+                aria-label="LinkedIn"
               >
-                <Twitter className="h-5 w-5" />
-              </Link>
-              <Link
-                href="#"
-                className="text-gray-400 hover:text-blue-400 transition-colors rounded-full bg-gray-900 p-2 hover:bg-gray-800"
-                aria-label="Instagram"
-              >
-                <Instagram className="h-5 w-5" />
+                <Linkedin className="h-5 w-5" />
               </Link>
               <Link
                 href="#"
@@ -50,6 +52,7 @@ export default function Footer() {
               >
                 <Youtube className="h-5 w-5" />
               </Link>
+              */}
             </div>
           </div>
 
@@ -92,9 +95,8 @@ export default function Footer() {
                   Event Timeline
                 </Link>
               </li>
-              {/*
+              {/*}
               <li>
-                
                 <Link
                   href="#sponsors"
                   className="text-gray-400 hover:text-blue-400 hover:underline transition-colors flex items-center"
@@ -115,14 +117,21 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-
-
         </div>
 
         <div className="mt-12 border-t border-blue-900/30 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-sm text-gray-500">
-            &copy; {new Date().getFullYear()} Hansana Eranga. All rights reserved.
-          </p>
+            <p className="text-sm text-gray-500">
+            &copy; {new Date().getFullYear()}{" "}
+            <Link
+              href="https://lk.linkedin.com/in/hansana-eranga-22500123a"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-400 hover:underline"
+            >
+              Hansana Eranga
+            </Link>
+            . All rights reserved.
+            </p>
           <button
             onClick={scrollToTop}
             className="mt-4 md:mt-0 rounded-full bg-blue-900/50 p-3 text-blue-400 hover:bg-blue-900 hover:text-white transition-colors"

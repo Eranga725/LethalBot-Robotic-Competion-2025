@@ -3,7 +3,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'LETHALBOTS 2025',
-  description: 'A website for robotic battle events',
+  description: 'LETHALBOTS 2025 is a SLTC Robotic batlle competion.',
   icons: {
     icon: [
       {

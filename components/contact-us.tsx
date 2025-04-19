@@ -24,7 +24,7 @@ export default function ContactUs() {
       name: "Dr. Migara Karunarathne",
       role: "Dean Faculty Of Technology",
       image: "/DSC09123-scaled.jpg",
-      email: "robert.williams@example.com",
+      email: "migarak@sltc.ac.lk",
       phone: "+94 (71) 403 3934",
     },
   ]
