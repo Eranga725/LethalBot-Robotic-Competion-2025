@@ -51,17 +51,17 @@ export default function HeroSection() {
   return (
     <section id="hero" ref={heroRef} className="relative h-screen w-full overflow-hidden">
       <div className="absolute inset-0 z-0">
-        <Image
-          src="robot.jpg"
-          alt="Robotic Battle Background"
-          fill
-          priority
-          quality={100}
-          className="object-cover"
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/90 via-black/80 to-black/90">
-          <div className="absolute inset-0 bg-blue-900/10"></div>
-        </div>
+      <video
+      src="/background-video.mp4"
+      autoPlay
+      loop
+      muted
+      playsInline
+      className="absolute inset-0 h-full w-full object-cover"
+      />
+      <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/70 to-black/80">
+      <div className="absolute inset-0 bg-blue-900/5"></div>
+      </div>
       </div>
 
       <div className="relative z-10 flex h-full flex-col items-center justify-center px-4 text-center text-white">
