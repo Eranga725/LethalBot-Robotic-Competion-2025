@@ -85,7 +85,7 @@ export default function Navbar() {
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <Link href="#hero" className="flex items-center space-x-2">
           <img
-            src="/transparentcolor-Copy.png"
+            src="/logohu1.png"
             alt="Logo"
             className="h-auto w-auto max-h-20"
           />

@@ -69,7 +69,7 @@ export default function HeroSection() {
         <div
           className={`transition-all duration-1000 transform ${isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"}`}
         >
-          <h1 className="mb-4 text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
+          <h2 className="mb-4 text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
             <span className="block text-white">LETHALBOT ROBOT BATTLE</span>
             <span
             className={`mt-2 block transition-colors delay-200 duration-500 ${
@@ -83,23 +83,23 @@ export default function HeroSection() {
             <style jsx>{`
               @keyframes color-change {
               0% {
-                color: #60a5fa; /* blue-400 */
+              color: #00bcd4; /* cyan-500 */
               }
               33% {
-                color: #3b82f6; /* blue-500 */
+              color: #00acc1; /* cyan-600 */
               }
               66% {
-                color: #2563eb; /* blue-600 */
+              color: #0097a7; /* cyan-700 */
               }
               100% {
-                color: #60a5fa; /* blue-400 */
+              color: #00bcd4; /* cyan-500 */
               }
               }
               .animate-color-change {
               animation: color-change 3s infinite;
               }
             `}</style>
-          </h1>
+          </h2>
         </div>
 
         <p
@@ -109,7 +109,7 @@ export default function HeroSection() {
         </p>
 
         <div
-          className={`mb-6 rounded-full bg-blue-900/30 px-6 py-2 backdrop-blur-sm border border-blue-900/50 shadow-glow transition-all duration-1000 delay-500 transform ${isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"}`}
+          className={`mb-6 rounded-full bg-blue-900/10 px-6 py-2 backdrop-blur-sm border border-blue-900/10 transition-all duration-1000 delay-500 transform ${isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"}`}
         >
           <p className="text-xl font-semibold">
             Event Date: <span className="text-blue-400">{formattedDate}</span>

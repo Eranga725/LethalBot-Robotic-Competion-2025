@@ -107,37 +107,37 @@ export default function CountdownTimer({ targetDate }: CountdownTimerProps) {
   }
 
   return (
-    <div className="grid grid-cols-2 gap-4 text-center sm:grid-cols-4">
+    <div className="grid grid-cols-4 gap-4 text-center">
       <div className={animating.days ? "animate-flip" : ""}>
-      <div className="rounded-xl bg-blue-900/30 p-4 backdrop-blur-sm border border-blue-900/50 shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-blue-500/20 relative overflow-hidden group">
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-900/0 via-blue-900/30 to-blue-900/0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 animate-gradient-x"></div>
-        <div className="text-4xl font-bold relative z-10">{timeLeft.days}</div>
-        <div className="text-sm uppercase text-gray-300 relative z-10">Days</div>
-      </div>
+        <div className="rounded-xl bg-blue-900/30 p-4 backdrop-blur-sm border border-blue-900/50 shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-blue-500/20 relative overflow-hidden group">
+          <div className="absolute inset-0 bg-gradient-to-r from-blue-900/0 via-blue-900/30 to-blue-900/0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 animate-gradient-x"></div>
+          <div className="text-4xl font-bold relative z-10">{timeLeft.days}</div>
+          <div className="text-sm uppercase text-gray-300 relative z-10">Days</div>
+        </div>
       </div>
 
       <div className={animating.hours ? "animate-flip" : ""}>
-      <div className="rounded-xl bg-blue-900/30 p-4 backdrop-blur-sm border border-blue-900/50 shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-blue-500/20 relative overflow-hidden group">
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-900/0 via-blue-900/30 to-blue-900/0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 animate-gradient-x"></div>
-        <div className="text-4xl font-bold relative z-10">{formatNumber(timeLeft.hours)}</div>
-        <div className="text-sm uppercase text-gray-300 relative z-10">Hours</div>
-      </div>
+        <div className="rounded-xl bg-blue-900/30 p-4 backdrop-blur-sm border border-blue-900/50 shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-blue-500/20 relative overflow-hidden group">
+          <div className="absolute inset-0 bg-gradient-to-r from-blue-900/0 via-blue-900/30 to-blue-900/0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 animate-gradient-x"></div>
+          <div className="text-4xl font-bold relative z-10">{formatNumber(timeLeft.hours)}</div>
+          <div className="text-sm uppercase text-gray-300 relative z-10">Hours</div>
+        </div>
       </div>
 
       <div className={animating.minutes ? "animate-flip" : ""}>
-      <div className="rounded-xl bg-blue-900/30 p-4 backdrop-blur-sm border border-blue-900/50 shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-blue-500/20 relative overflow-hidden group">
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-900/0 via-blue-900/30 to-blue-900/0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 animate-gradient-x"></div>
-        <div className="text-4xl font-bold relative z-10">{formatNumber(timeLeft.minutes)}</div>
-        <div className="text-sm uppercase text-gray-300 relative z-10">Minutes</div>
-      </div>
+        <div className="rounded-xl bg-blue-900/30 p-4 backdrop-blur-sm border border-blue-900/50 shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-blue-500/20 relative overflow-hidden group flex flex-col items-center justify-center">
+          <div className="absolute inset-0 bg-gradient-to-r from-blue-900/0 via-blue-900/30 to-blue-900/0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 animate-gradient-x"></div>
+          <div className="text-4xl font-bold relative z-10">{formatNumber(timeLeft.minutes)}</div>
+          <div className="text-sm uppercase text-gray-300 relative z-10">Minutes</div>
+        </div>
       </div>
 
       <div className={animating.seconds ? "animate-flip" : ""}>
-      <div className="rounded-xl bg-blue-900/30 p-4 backdrop-blur-sm border border-blue-900/50 shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-blue-500/20 relative overflow-hidden group">
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-900/0 via-blue-900/30 to-blue-900/0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 animate-gradient-x"></div>
-        <div className="text-4xl font-bold relative z-10">{formatNumber(timeLeft.seconds)}</div>
-        <div className="text-sm uppercase text-gray-300 relative z-10">Seconds</div>
-      </div>
+      <div className="rounded-xl bg-blue-900/30 p-4 backdrop-blur-sm border border-blue-900/50 shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-blue-500/20 relative overflow-hidden group flex flex-col items-center justify-center">
+          <div className="absolute inset-0 bg-gradient-to-r from-blue-900/0 via-blue-900/30 to-blue-900/0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 animate-gradient-x"></div>
+          <div className="text-4xl font-bold relative z-10">{formatNumber(timeLeft.seconds)}</div>
+          <div className="text-sm uppercase text-gray-300 relative z-10">Seconds</div>
+        </div>
       </div>
     </div>
   )
