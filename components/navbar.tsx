@@ -128,41 +128,43 @@ export default function Navbar() {
           <span className="sr-only">Open main menu</span>
           {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
         </button>
-      </div>
+            </div>
 
-      {/* Mobile Navigation */}
-      <div
+            {/* Mobile Navigation */}
+            <div
         className={`transform transition-all duration-300 ease-in-out md:hidden ${
           isMenuOpen ? "max-h-screen opacity-100" : "max-h-0 opacity-0 overflow-hidden"
         }`}
-      >
+            >
         <div className="space-y-1 px-2 pb-3 pt-2">
-          <Link href="#overview" className={mobileNavLinkClass("overview")} onClick={toggleMenu}>
+          <Link href="#overview" className={mobileNavLinkClass("overview")} onClick={() => { setIsMenuOpen(false); }}>
             Overview
           </Link>
-          <Link href="#rules" className={mobileNavLinkClass("rules")} onClick={toggleMenu}>
+          <Link href="#rules" className={mobileNavLinkClass("rules")} onClick={() => { setIsMenuOpen(false); }}>
             Rules
           </Link>
-          <Link href="#prizes" className={mobileNavLinkClass("prizes")} onClick={toggleMenu}>
+          <Link href="#prizes" className={mobileNavLinkClass("prizes")} onClick={() => { setIsMenuOpen(false); }}>
             Prizes
           </Link>
-          <Link href="#roadmap" className={mobileNavLinkClass("roadmap")} onClick={toggleMenu}>
+          <Link href="#roadmap" className={mobileNavLinkClass("roadmap")} onClick={() => { setIsMenuOpen(false); }}>
             Timeline
           </Link>
-          <Link href="#memories" className={mobileNavLinkClass("memories")} onClick={toggleMenu}>
+          <Link href="#memories" className={mobileNavLinkClass("memories")} onClick={() => { setIsMenuOpen(false); }}>
             Past Events
           </Link>
-          <Link href="#sponsors" className={mobileNavLinkClass("sponsors")} onClick={toggleMenu}>
+          {/*
+          <Link href="#sponsors" className={mobileNavLinkClass("sponsors")} onClick={() => { setIsMenuOpen(false); }}>
             Sponsors
           </Link>
-          <Link href="#contact" className={mobileNavLinkClass("contact")} onClick={toggleMenu}>
+*/}
+          <Link href="#contact" className={mobileNavLinkClass("contact")} onClick={() => { setIsMenuOpen(false); }}>
             Contact
           </Link>
           <div className="mt-4 px-3">
             <Button className="w-full bg-blue-600 hover:bg-blue-700">Register Now</Button>
           </div>
         </div>
-      </div>
+            </div>
     </header>
   )
 }
