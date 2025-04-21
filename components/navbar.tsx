@@ -14,7 +14,7 @@ export default function Navbar() {
     setIsMenuOpen(!isMenuOpen)
   }
 
-  // Handle scroll events to update active section and navbar styling
+  // Handle scroll events to update active section and naevbar styling
   useEffect(() => {
     const handleScroll = () => {
       // Update navbar background opacity based on scroll position
