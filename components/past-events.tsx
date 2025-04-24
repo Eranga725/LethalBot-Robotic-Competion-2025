@@ -24,7 +24,7 @@ export default function PastEvents() {
       description: "New Bots, Same Thrills: The Legacy Continues! Bigger battles, fiercer clashes honoring the past while forging the future..",
       date: "June 12, 2023",
       location: "Sltc Research University, Padukka",
-      galleryUrl: "https://www.facebook.com/share/19pbKaouqU/?",
+      galleryUrl: "https://www.facebook.com/share/1AT4TzLiKS/",
     },
     {
       id: 2,
@@ -33,7 +33,7 @@ export default function PastEvents() {
       description: "Throwback Chaos: When Bots First Ruled the Arena! Relive the sparks, crashes, and legendary smackdowns that started it all.",
       date: "June 10, 2022",
       location: "Sltc Research University, Padukka",
-      galleryUrl: "https://www.facebook.com/share/16HdeGjJTT/?",
+      galleryUrl: "https://www.facebook.com/share/1AT4TzLiKS/?",
     },
   ]
 

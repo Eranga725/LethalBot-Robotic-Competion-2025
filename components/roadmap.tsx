@@ -7,7 +7,7 @@ export default function Roadmap() {
   const timelineEvents = [
     {
       title: "Registration Open",
-      date: "April 20, 2025",
+      date: "April 24, 2025",
       description:
         "The battle begins here! Start crafting your ultimate combat robot. Let the countdown to glory begin.",
       status: "in-progress",
@@ -21,7 +21,7 @@ export default function Roadmap() {
     },
     {
       title: "Registration Close",
-      date: "May 30, 2025",
+      date: "June 30, 2025",
       description:
         "The gates are closing! Don't miss your chance to compete in the most electrifying robot showdown of the year.",
       status: "upcoming",

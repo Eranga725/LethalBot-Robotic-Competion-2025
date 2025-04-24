@@ -117,7 +117,8 @@ export default function Navbar() {
           </Link>
         </nav>
 
-        <Button className="hidden bg-blue-600 hover:bg-blue-700 md:inline-flex">Register Now</Button>
+        <Button className="hidden bg-blue-600 hover:bg-blue-700 md:inline-flex">
+        <a href="https://forms.gle/taVS7rvC8zRqvie89">Register Now</a></Button>
 
         {/* Mobile Menu Button */}
         <button
@@ -161,7 +162,9 @@ export default function Navbar() {
             Contact
           </Link>
           <div className="mt-4 px-3">
-            <Button className="w-full bg-blue-600 hover:bg-blue-700">Register Now</Button>
+          <Button asChild className="w-full bg-blue-600 hover:bg-blue-700">
+            <a href="https://forms.gle/taVS7rvC8zRqvie89">Register Now</a>
+          </Button>
           </div>
         </div>
             </div>
