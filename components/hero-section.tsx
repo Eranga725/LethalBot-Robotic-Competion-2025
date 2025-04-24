@@ -112,7 +112,7 @@ export default function HeroSection() {
           className={`mb-6 rounded-full bg-blue-900/10 px-6 py-2 backdrop-blur-sm border border-blue-900/10 transition-all duration-1000 delay-500 transform ${isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"}`}
         >
           <p className="text-xl font-semibold">
-          Registration Close: <span className="text-blue-400">{formattedDate}</span>
+          Registration Close : <span className="text-blue-400">{formattedDate}</span>
           </p>
         </div>
 
