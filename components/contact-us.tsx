@@ -27,11 +27,27 @@ export default function ContactUs() {
       email: "migarak@sltc.ac.lk",
       phone: "+94 (71) 403 3934",
     },
+    {
+      id: 4,
+      name: "Dr. Chamith Chandrarathna",
+      role: "Acting Department Head - Applied Electronics",
+      image: "/WhatsApp Image 2025-04-25 at 13.10.00_63b9aff2.jpg",
+      email: "chamithc@sltc.ac.lk",
+      phone: "+94 (70) 475 5732",
+    },
+    {
+      id: 5,
+      name: "Mr. Ashan Pathirana",
+      role: "Mechanical & Mechatronics",
+      image: "/WhatsApp Image 2025-04-25 at 13.10.27_f31fc22b.jpg",
+      email: "ashanp@sltc.ac.lk",
+      phone: "+94 (70) 197 4366",
+    },
   ]
 
   return (
-    <section id="contact" className="py-24">
-      <div className="container mx-auto px-4">
+    <section id="contact" className="py-24 flex justify-center items-center">
+      <div className="container mx-auto px-4 flex flex-col items-center">
         <div className="mb-16 text-center">
           <h2 className="mb-4 text-3xl font-bold tracking-tight sm:text-4xl text-blue-400">Contact Us</h2>
           <p className="mx-auto max-w-3xl text-gray-400">
@@ -40,7 +56,7 @@ export default function ContactUs() {
         </div>
 
         <div className="mx-auto max-w-5xl">
-          <div className="grid gap-8 md:grid-cols-3">
+          <div className="grid gap-8 md:grid-cols-3 justify-center">
             {teamMembers.map((member) => (
               <div
                 key={member.id}
