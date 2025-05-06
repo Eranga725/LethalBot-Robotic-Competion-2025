@@ -2,41 +2,50 @@ import { Metadata } from "next"
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'LETHALBOTS 2025',
-  description: 'Lethal bot 2025, the robot battle organized by Sri Lanka Technological Campus (SLTC), bringing together the brightest innovators from universities across Sri Lanka. As the premier SLTC robot battle event, Lethal bots challenges teams to design, build, and battle their robots in an epic competition of skill, creativity, and teamwork. With thrilling head-to-head battles and groundbreaking robot designs, Lethal bots SLTC is a celebration of technology, engineering excellence, and the future of robotics. Join us at SLTC and experience the excitement of the Lethal bot robot battle.',
-  icons: {
-    icon: [
+  title: 'LETHALBOTS 2025 | SLTC Robot Battle Competition',
+  description: 'LETHALBOTS 2025 is Sri Lanka\'s premier robotics competition hosted by SLTC, featuring intense robot battles, innovative engineering, and nationwide university participation. Register now for the ultimate robotics showdown!',
+  keywords: 'LETHALBOTS, robot battle, SLTC, robotics competition, sri lanka robotics, engineering competition, university robotics',
+  authors: [{ name: 'SLTC Engineering' }],
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://lethalbots.sltc.ac.lk',
+    title: 'LETHALBOTS 2025 | SLTC Robot Battle Competition',
+    description: 'Join Sri Lanka\'s biggest robotics competition. Register now for LETHALBOTS 2025!',
+    siteName: 'LETHALBOTS 2025',
+    images: [
       {
-        url: '/favicon.ico',
-        sizes: 'any',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: [
-      {
-        url: '/apple-touch-icon.png',
-        sizes: '180x180',
-        type: 'image/png',
-      },
-    ],
-    other: [
-      {
-        rel: 'icon',
-        type: 'image/png',
-        sizes: '192x192',
-        url: '/icon-192.png',
-      },
-      {
-        rel: 'icon',
-        type: 'image/png',
-        sizes: '512x512',
-        url: '/icon-512.png',
-      },
+        url: '/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'LETHALBOTS 2025',
+      }
     ],
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'LETHALBOTS 2025 | SLTC Robot Battle Competition',
+    description: 'Join Sri Lanka\'s biggest robotics competition. Register now for LETHALBOTS 2025!',
+    images: ['/twitter-image.jpg'],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  },
+  icons: {
+    icon: [
+      { url: '/favicon.ico' },
+      { url: '/icon.png', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/apple-icon.png' },
+    ],
+  },
+  manifest: '/site.webmanifest',
 }
 
 export default function RootLayout({
