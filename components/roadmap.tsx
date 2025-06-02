@@ -14,7 +14,7 @@ export default function Roadmap() {
     },
     {
       title: "Introduction Meeting",
-      date: "May 20, 2025",
+      date: "june 15, 2025",
       description:
         "Meet the organizers, understand the rules, and get a complete overview of what lies ahead. A perfect starting point for new and returning teams.",
       status: "upcoming",
