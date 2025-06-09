@@ -94,7 +94,7 @@ export default function RulesRegulations() {
                   <div className="flex items-start">
                     <Check className="mr-2 mt-1 h-5 w-5 flex-shrink-0 text-blue-400" />
                     <p className="text-gray-300">
-                      Dimension of the robot must be within 40cm x 40cm x 40cm (L × W × H).
+                      Dimension of the robot must be within 45cm x 45cm x 45cm (L × W × H).
                     </p>
                   </div>
                   <div className="flex items-start">
@@ -197,7 +197,7 @@ export default function RulesRegulations() {
                   </div>
                   <div className="flex items-start">
                     <Check className="mr-2 mt-1 h-5 w-5 flex-shrink-0 text-blue-400" />
-                    <p className="text-gray-300">Matches are 2 minutes long (active fight time).</p>
+                    <p className="text-gray-300">Matches are 3 minutes long (active fight time).</p>
                   </div>
                   <div className="flex items-start">
                     <Check className="mr-2 mt-1 h-5 w-5 flex-shrink-0 text-blue-400" />
