@@ -153,11 +153,11 @@ export default function Navbar() {
           <Link href="#memories" className={mobileNavLinkClass("memories")} onClick={() => { setIsMenuOpen(false); }}>
             Past Events
           </Link>
-          {/*
+          {
           <Link href="#sponsors" className={mobileNavLinkClass("sponsors")} onClick={() => { setIsMenuOpen(false); }}>
             Sponsors
           </Link>
-*/}
+}
           <Link href="#contact" className={mobileNavLinkClass("contact")} onClick={() => { setIsMenuOpen(false); }}>
             Contact
           </Link>
