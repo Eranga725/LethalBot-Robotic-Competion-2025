@@ -95,7 +95,7 @@ export default function Footer() {
                   Event Timeline
                 </Link>
               </li>
-              {/*}
+              {
               <li>
                 <Link
                   href="#sponsors"
@@ -105,7 +105,7 @@ export default function Footer() {
                   Sponsors
                 </Link>
               </li>
-              */}
+              }
               <li>
                 <Link
                   href="#contact"
