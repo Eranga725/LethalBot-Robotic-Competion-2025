@@ -14,7 +14,7 @@ export default function Roadmap() {
     },
     {
       title: "Registration Close",
-      date: "June 30, 2025",
+      date: "July 04, 2025",
       description:
         "The gates are closing! Don't miss your chance to compete in the most electrifying robot showdown of the year.",
       status: "upcoming",
