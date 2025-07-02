@@ -16,7 +16,7 @@ export default function HeroSection() {
     setIsMounted(true)
 
     // Set the specific target date: November 4th, 2025 at 7:28 PM
-    const date = new Date('2025-06-30T20:00:00')
+    const date = new Date('2025-07-04T20:00:00')
     setTargetDate(date)
 
     // Trigger animations after a short delay
@@ -139,7 +139,7 @@ export default function HeroSection() {
             variant="outline"
             className="border-blue-400 text-blue-400 hover:bg-blue-950 text-lg px-8 py-6 hover:scale-105 transition-transform"
           >
-             <a href="https://drive.google.com/file/d/1d0n-MaRuh-Wx5ELeLPhNWoXeoWrYGocM/view?usp=drive_link">
+             <a href="https://drive.google.com/file/d/1o4cEArolKRlIobfpb38zdvb3Ll-RQE8T/view?usp=sharing">
             Learn More</a>
           </Button>
         </div>

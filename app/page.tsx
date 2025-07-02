@@ -51,7 +51,7 @@ export default function Home() {
         <TeamPrizes />
         <Roadmap />
         <PastEvents />
-        {/*<SponsorBar />*/}
+        <SponsorBar />
         <ContactUs />
         <Footer />
       </main>
