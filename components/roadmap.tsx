@@ -28,7 +28,7 @@ export default function Roadmap() {
     },
     {
       title: "Battle Draw",
-      date: "July 14, 2025",
+      date: "July 15, 2025",
       description:
         "Find out your first opponent! The official match lineup will be revealed—get ready to plan your strategy.",
       status: "upcoming",
