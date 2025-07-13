@@ -10,21 +10,21 @@ export default function Roadmap() {
       date: "April 24, 2025",
       description:
         "The battle begins here! Start crafting your ultimate combat robot. Let the countdown to glory begin.",
-      status: "in-progress",
+      status: "completed",
     },
     {
       title: "Registration Close",
       date: "July 04, 2025",
       description:
         "The gates are closing! Don't miss your chance to compete in the most electrifying robot showdown of the year.",
-      status: "upcoming",
+      status: "completed",
     },
     {
       title: "Awareness Meeting",
-      date: "July 1, 2025",
+      date: "July 13, 2025",
       description:
         "Stay informed and battle-ready. This session covers final reminders, rule clarifications & safety protocols.",
-      status: "upcoming",
+      status: "completed",
     },
     {
       title: "Battle Draw",
