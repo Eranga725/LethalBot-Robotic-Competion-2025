@@ -31,14 +31,14 @@ export default function Roadmap() {
       date: "July 15, 2025",
       description:
         "Find out your first opponent! The official match lineup will be revealed—get ready to plan your strategy.",
-      status: "upcoming",
+      status: "completed",
     },
     {
       title: "Battle Day",
       date: "July 15, 2025",
       description:
         "This is it. Step into the arena, showcase your creation, and fight for glory, innovation, and victory.",
-      status: "upcoming",
+      status: "completed",
     },
   ]
 
